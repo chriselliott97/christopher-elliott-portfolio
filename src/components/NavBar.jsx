@@ -7,7 +7,7 @@ const NavBar = () => {
       <Link 
         to='/'
       >
-        Your Name
+        Christopher Elliott
       </Link>
 
       <ul>
@@ -24,6 +24,20 @@ const NavBar = () => {
             to='/contact'
           >
             Contact
+          </Link>
+        </li>
+        <li>
+          <Link
+            to='/resume'
+          >
+            Resume
+          </Link>
+        </li>
+        <li>
+          <Link
+            to='/projects'
+          >
+            Projects
           </Link>
         </li>
       </ul>

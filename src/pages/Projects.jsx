@@ -1,5 +1,5 @@
 import { projects } from "../data/projects";
-import ProjectsList from "../components/ProjectsList";
+import ProjectsList from "../components/ProjectsList/ProjectsList.jsx";
 
 const Projects = () => {
   return ( 

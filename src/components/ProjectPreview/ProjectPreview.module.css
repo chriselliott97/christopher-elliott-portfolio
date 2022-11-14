@@ -1,0 +1,22 @@
+.container {
+  width: 90%;
+  display: grid;
+  grid-template-rows: repeat(minmax(170px, 1fr));
+	grid-template-columns: auto auto;
+  grid-gap: 20px;
+  background-color: #B2B3A7;
+  box-shadow: -1px 5px 19px -5px rgba(0,0,0,0.5);
+  margin: 25px 0 0 40px
+}
+
+.screenshot {
+  width: 40vw;
+  margin: 2vh;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10vw;
+}

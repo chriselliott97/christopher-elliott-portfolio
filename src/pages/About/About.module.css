@@ -1,0 +1,12 @@
+.headshot {
+  margin-top: 4vh;
+    width: 40%;
+    border-radius: 50%;
+    box-shadow: -1px 5px 19px -5px rgba(0,0,0,0.5);
+}
+
+.description {
+  width: 50%;
+  font-size: 30px;
+  margin-top: 10vh;
+}

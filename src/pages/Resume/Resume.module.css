@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.pdfIcon {
+  width: 100%;
+}
+
+.pdfIcon:hover {
+  cursor: pointer;
+} 
+
+.title {
+  padding: 60px 0;
+  font-size: 100px;
+}
+
+.lowerText {
+  padding: 100px 0;
+  font-size: 40px;
+}

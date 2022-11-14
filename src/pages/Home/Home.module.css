@@ -1,0 +1,11 @@
+.homeMain {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.headshot {
+  width: 40%;
+  border-radius: 50%;
+  box-shadow: -1px 5px 19px -5px rgba(0,0,0,0.5);
+}

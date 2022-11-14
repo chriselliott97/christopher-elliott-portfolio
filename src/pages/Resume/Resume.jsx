@@ -14,7 +14,7 @@ const Resume = () => {
   }
 
   return ( 
-    <main>
+    <main className={styles.resumeMain}>
       <section className={styles.title}>
         Resume
       </section>

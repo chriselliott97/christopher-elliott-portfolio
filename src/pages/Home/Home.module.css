@@ -1,8 +1,5 @@
-main > * {  
-  margin: 4vh 0 
-}
-
-.homeMain {
+.homeMain > * {  
+  margin: 4vh 0;
   display: flex;
   flex-direction: column;
 }

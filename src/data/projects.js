@@ -1,5 +1,11 @@
 const projects = [
   {
+    title: "Connect Four",
+    description: " Created with JavaScript, HTML and CSS. This is the first project I ever made as a developer and it is meant to highlight my skills with JavaScript. I always loved Connect Four growing up and being able to create the game by myself is a whole new experience. I hope you enjoy the app.",
+    image:"/ConnectFour.png",
+    deploymentLink: "https://chris-elliott-connect-four.netlify.app/"
+  },
+  {
     title: "My Golf Bag",
     description: "Created with JavaScript, Node JS, Express, Google OAuth, HTML, and CSS. With My Golf Bag it allows for new or experienced golfers to create a golf bag and add clubs that are specific to them. They can compare and contrast their bags with other users and make buying golf clubs a much smoother transition",
     image: "/MyGolfBag.png",

@@ -1,8 +1,14 @@
+.aboutmain {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 .headshot {
   margin-top: 4vh;
-    width: 40%;
-    border-radius: 50%;
-    box-shadow: -1px 5px 19px -5px rgba(0,0,0,0.5);
+  width: 30%;
+  border-radius: 50%;
+  box-shadow: -1px 5px 19px -5px rgba(0,0,0,0.5);
 }
 
 .description {

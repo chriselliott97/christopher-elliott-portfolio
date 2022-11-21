@@ -1,32 +1,26 @@
 import hyphenateWords from "../../utilities/hyphenateWords";
 import { Link } from "react-router-dom";
 import styles from './ProjectPreview.module.css'
+import { projects } from "../../data/projects";
 
 
 const ProjectPreview = (props) => {
   const path = hyphenateWords(props.title)
   return ( 
     <>
-    
+    <section>
+
     <Link to={path}>
-      <article className={styles.container}>
+      <div className={styles.container}>
+      <h1 className={styles.title}>{props.title}</h1>
         <img 
           className={styles.screenshot}
           src={props.image} 
           alt={props.title}
         />
-
-        <section className={styles.title}>
-          <h3>
-            {props.title}
-          </h3>
-          <button className='btn btn-primary'>
-              Learn more
-          </button>
-        </section>
-      
-      </article>
+      </div>
     </Link>
+    </section>
 
     </>
   );

@@ -17,3 +17,7 @@ code {
 .navbar {
   --bs-navbar-nav-link-padding-x: 10vw;
 }
+
+a {
+  color: #251F18;
+}

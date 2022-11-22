@@ -14,5 +14,16 @@
 .description {
   width: 50%;
   font-size: 30px;
-  margin-top: 10vh;
+  margin-top: 30px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.logos > img {
+  width:40px
 }

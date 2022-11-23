@@ -16,9 +16,9 @@ const NavBar = () => {
         <div className="collapse navbar-collapse " id="toggleMobileMenu">
           <ul className='navbar-nav ms-auto text-center' style={{fontSize: '25px'}}>
             <li className='nav-link'><Link to='/about'>About</Link></li>
-            <li className='nav-link'><Link to='/contact'>Contact</Link></li>
-            <li className='nav-link'><Link to='/resume'>Resume</Link></li>
             <li className='nav-link'><Link to='/projects'>Projects</Link></li>
+            <li className='nav-link'><Link to='/resume'>Resume</Link></li>
+            <li className='nav-link'><Link to='/contact'>Contact</Link></li>
           </ul>
         </div>
       </nav>

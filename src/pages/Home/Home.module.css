@@ -10,3 +10,11 @@
   box-shadow: -1px 5px 19px -5px rgba(0,0,0,0.5);
 }
 
+.logos {
+  display: flex;
+  flex-direction: row;
+}
+
+.logos > * {
+  margin: 0 20px 0 20px;
+}

@@ -8,7 +8,6 @@ const ProjectPreview = (props) => {
   const path = hyphenateWords(props.title)
   return ( 
     <>
-    <section>
 
     <Link to={path}>
       <div className={styles.container}>
@@ -19,8 +18,8 @@ const ProjectPreview = (props) => {
           alt={props.title}
         />
       </div>
+
     </Link>
-    </section>
 
     </>
   );

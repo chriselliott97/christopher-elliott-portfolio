@@ -22,7 +22,7 @@ const projects = [
   },
   {
     title: "Golf Tracker",
-    description: "Created with Python, Django, HTML, and CSS. This is my first project using Python and is meant to demonstrate the skills that I have learned in python. Gas you can tell, I lve golf and this app allows golfers to track courses that they have played on in the past as well as track the times that they have practiced.",
+    description: "Created with Python, Django, HTML, and CSS. This is my first project using Python and is meant to demonstrate the skills that I have learned in python. As you can tell, I lve golf and this app allows golfers to track courses that they have played on in the past as well as track the times that they have practiced.",
     image: "/GolfTracker.png",
     deploymentLink: "https://golf-course-tracker.herokuapp.com/"
   }
